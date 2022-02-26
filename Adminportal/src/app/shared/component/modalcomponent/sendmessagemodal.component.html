@@ -1,0 +1,109 @@
+<div class="modal-header">
+    <h4 class="modal-title">{{title}}</h4>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<form [formGroup]="form" novalidate="">
+    <div class="modal-body">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-body ">
+                        <div class="row mr-10">
+                            <div class="col-md-12">
+                                <div class="form-group row">
+                                    <div class="col-md-10">
+                                        <label for="horizontal-form-1">Your Email Address</label>
+                                        <input type="text" formControlName="fromEmailAddress" class="form-control"
+                                               placeholder="Email Address" maxlength="50" autocomplete="off"
+                                               [ngClass]="{ 'is-invalid': (isFormSubmitted || lf.fromEmailAddress.touched) && lf.fromEmailAddress.invalid,
+                                                                 'is-valid': !lf.fromEmailAddress.invalid }">
+
+                                        <div *ngIf="(isFormSubmitted || lf.fromEmailAddress.touched) && (lf.fromEmailAddress.invalid && lf.fromEmailAddress.errors?.required)"
+                                             class="help-block mt-1 text-danger">
+                                            Email Address is required
+                                        </div>
+
+                                        <div *ngIf="(isFormSubmitted || lf.fromEmailAddress.touched) && (lf.fromEmailAddress.invalid && lf.fromEmailAddress.errors?.email)"
+                                             class="help-block mt-1 text-danger">
+                                            Maximum Length Exceeds
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-md-5">
+                                        <label for="horizontal-form-1">First Name</label>
+                                        <input type="text" formControlName="firstName" class="form-control"
+                                               placeholder="Last Name" maxlength="50" autocomplete="off"
+                                               [ngClass]="{ 'is-invalid': (isFormSubmitted || lf.firstName.touched) && lf.firstName.invalid,
+                                                                 'is-valid': !lf.firstName.invalid }">
+
+                                        <div *ngIf="(isFormSubmitted || lf.firstName.touched) && (lf.firstName.invalid && lf.firstName.errors?.required)"
+                                             class="help-block mt-1 text-danger">
+                                            First Name is required
+                                        </div>
+
+                                        <div *ngIf="(isFormSubmitted || lf.firstName.touched) && (lf.firstName.invalid && lf.firstName.errors?.maxlength)"
+                                             class="help-block mt-1 text-danger">
+                                            Maximum Length Exceeds
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <label for="horizontal-form-1">Last Name</label>
+                                        <input type="text" formControlName="lastName" class="form-control"
+                                               placeholder="First Name" maxlength="50" autocomplete="off"
+                                               [ngClass]="{ 'is-invalid': (isFormSubmitted || lf.lastName.touched) && lf.lastName.invalid,
+                                                                 'is-valid': !lf.lastName.invalid }">
+
+                                        <div *ngIf="(isFormSubmitted || lf.lastName.touched) && (lf.lastName.invalid && lf.lastName.errors?.required)"
+                                             class="help-block mt-1 text-danger">
+                                            Last Name is required
+                                        </div>
+
+                                        <div *ngIf="(isFormSubmitted || lf.lastName.touched) && (lf.lastName.invalid && lf.lastName.errors?.maxlength)"
+                                             class="help-block mt-1 text-danger">
+                                            Maximum Length Exceeds
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mr-10">
+                            <div class="col-md-12">
+                                <div class="form-group row">
+                                    <div class="col-md-10">
+                                        <label for="horizontal-form-1">Message</label>
+                                        <textarea type="text" formControlName="message" class="form-control"
+                                                  placeholder="Message" maxlength="50000" rows="8" autocomplete="off"
+                                                  [ngClass]="{ 'is-invalid': (isFormSubmitted || lf.message.touched) && lf.message.invalid,
+                                                                 'is-valid': !lf.message.invalid }"></textarea>
+
+                                        <div *ngIf="(isFormSubmitted || lf.message.touched) && (lf.message.invalid && lf.message.errors?.required)"
+                                             class="help-block mt-1 text-danger">
+                                            Message is required
+                                        </div>
+                                        <div *ngIf="(isFormSubmitted || lf.message.touched) && (lf.message.invalid && lf.message.errors?.maxlength)"
+                                             class="help-block mt-1 text-danger">
+                                            Maximum Length Exceeds
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary mr-2" (click)="onCancel()">
+            <i-feather name="Minus" class="mr-2"></i-feather>Cancel
+        </button>
+        <button type="button" class="btn btn-primary" (click)="onSave()">
+            <i-feather name="check-square" class="mr-2"></i-feather>Send Message
+        </button>
+    </div>
+</form>

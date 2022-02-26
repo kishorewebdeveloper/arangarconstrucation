@@ -1,0 +1,44 @@
+label.fileLabel input[type="file"] {
+    position: absolute;
+    top: -1000px;
+}
+
+.fileLabel {
+    cursor: pointer;
+    background-color: #FF8D60 !important;
+    color: #fff !important;
+    border-color: #FF8D60;
+    float: left;
+}
+
+.fileLabel:hover {
+    background: #CCC;
+}
+
+.fileLabel:active {
+    background: #CCF;
+}
+
+.fileLabel :invalid + span {
+    color: #A44;
+}
+
+.fileLabel :valid + span {
+    color: #4A4;
+}
+
+input.file {
+    border: transparent;
+    border-radius: 4px;
+    padding: 2px 5px;
+    margin: 2px;
+    background: transparent;
+    color: transparent;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    
+}

@@ -1,0 +1,179 @@
+<div class="meet-page" *ngIf="isValidMeetToken == false">
+    <div class="row">
+        <div class="col-md-12" style="text-align: center;">
+            <img src="./assets/images/invalidurl.jpg" />
+
+        </div>
+        <div class="col-md-12" style="text-align: center;">
+            <p>It seems that you have visited the page with invalid URL, Nothing to worry you can sign up and become a member to avail our service</p>
+            <button type="submit" class="btn btn-primary btn-lg">
+                Go to Login
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="meet-page" *ngIf="isValidMeetToken == true">
+    <div class="meet-top-container">
+        <div class="container">
+            <div class="row info-box">
+                <div class="col-md-8">
+                    <div class="image-div">
+                        <ngb-carousel *ngIf="eventImages"
+                                      [showNavigationArrows]="true"
+                                      [showNavigationIndicators]="true">
+                            <ng-template ngbSlide *ngFor="let item of eventImages">
+                                <div class="picsum-img-wrapper">
+                                    <img [src]="item.image" class="mh-100 carousel-image" />
+                                </div>
+                            </ng-template>
+                        </ngb-carousel>
+                    </div>
+                    <div class="about-div">
+                        <div class="header">
+                            <i class="fa fa-info-circle fa-2x mr-1"> </i> About the Event
+                        </div>
+                        <div class="content">
+                            {{ eventData?.description }}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="right-div">
+                        <div class="header">
+                            <h2>{{ eventData?.name }}</h2>
+                        </div>
+                        <div class="content">
+                            <div class="title">
+                                <div class="primary">
+                                    {{ eventData?.eventTypeName }}
+                                </div>
+                                <div class="secondary">
+                                    {{ eventData?.shortDescription }}
+                                </div>
+                            </div>
+                            <div *ngFor="let item of schedulesData">
+                                <div class="title">
+                                    <div class="secondary">Start at</div>
+                                    <div class="primary">
+                                        {{ item.startDate | date: "medium" }}
+                                    </div>
+                                </div>
+                                <div class="title">
+                                    <div class="secondary">Ends at</div>
+                                    <div class="primary">
+                                        {{ item.endDate | date: "medium" }}
+                                    </div>
+                                </div>
+                                <div class="title organizer">
+                                    <div class="secondary">Organizer</div>
+                                    <div class="primary">
+                                        {{ organizerData?.fullName }}
+                                        <button class="btn btn-primary contact-btn"
+                                                (click)="openSendMessageModal(organizerData?.id)">
+                                            Contact
+                                        </button>
+                                    </div>
+                                </div>
+                                <div *ngFor="let location of locationsData">
+                                    <div class="title">
+                                        <div class="secondary">Location</div>
+                                        <div class="primary">
+                                            {{ location.name }}
+                                        </div>
+                                        <div class="desc">
+                                            {{ location.locationTypeName }}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="meet-top-container" style="background: none; margin-bottom: 4rem">
+        <div class="container">
+            <div class="row info-box">
+                <div class="col-md-8">
+                    <div class="packages">
+                        <div class="title">
+                            <h4>Packages</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6" *ngFor="let item of eventPackages; let i= index">
+                            <div class="product-card">
+                                <div class="img-div">
+                                    <img [src]="item.image" />
+                                </div>
+                                <div class="content">
+                                    <h3>{{item.name}}</h3>
+                                    <h4>{{item.description}}</h4>
+                                    <p class="duration">
+                                        Sale Ends at {{item.saleEndDate | date }}
+                                    </p>
+                                    <p class="description">
+                                        {{item.packageProductItemsDescription}}
+                                    </p>
+                                    <div class="btn-area">
+                                        <button class="btn btn-primary prod-btn">View more</button>
+                                        <button class="btn btn-primary prod-btn" (click)="checkOut(item)">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-hover-shadow-2x mb-3 card">
+                        <div class="card-header-tab card-header">
+                            <div class="
+                    card-header-title
+                    font-size-lg
+                    text-capitalize
+                    font-weight-normal
+                  ">
+                                <i class="fa fa-shopping-cart fa-2x mr-1"> </i> cart
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <ul class="todo-list-wrapper list-group list-group-flush">
+                                <li class="list-group-item" *ngFor="let item of schedulesData">
+                                    <div class="todo-indicator bg-warning"></div>
+                                    <div class="widget-content p-0">
+                                        <div class="widget-content-wrapper">
+                                            <div class="widget-content-left">
+                                                
+                                                <div *ngIf="cartData?.length > 0" class="widget-subheading">{{cartData.length}}</div>
+                                                <div *ngIf="cartData?.length == 0" class="widget-subheading">Your cart is empty</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer" style="text-align: center">
+                            <button type="button"
+                                    class="
+                    mb-2
+                    mr-2
+                    btn-shadow
+                    d-inline-flex
+                    align-items-center
+                    btn btn-success
+                  ">
+                                Check out
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

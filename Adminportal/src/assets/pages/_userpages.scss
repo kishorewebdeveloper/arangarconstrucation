@@ -1,0 +1,38 @@
+// User Pages
+
+.app-logo {
+  height: $logo-height;
+  width: $logo-width;
+  background: url('/assets/images/logo-inverse.png');
+}
+
+.app-logo-inverse {
+  height: $logo-height;
+  width: $logo-width;
+  background: url('/assets/images/logo-xlarge.png');
+}
+
+.app-logo-color {
+  height: $logo-height;
+  width: $logo-width;
+  background: url('/assets/images/logo-large-color.png');
+}
+
+.app-login-box {
+  .app-logo {
+    margin-bottom: $layout-spacer-lg;
+  }
+
+  h4 {
+    margin-bottom: $layout-spacer-x;
+    font-weight: normal;
+
+    div {
+      opacity: .6;
+    }
+
+    span {
+      font-size: $font-size-lg;
+    }
+  }
+}

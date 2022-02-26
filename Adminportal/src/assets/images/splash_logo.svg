@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="40" viewBox="0 0 120 40">
+  <defs>
+    <clipPath id="clip-logo-color">
+      <rect width="120" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="logo-color" clip-path="url(#clip-logo-color)">
+    <g id="Group_1282" data-name="Group 1282" transform="translate(-115 -291.258)">
+      <g id="Group_1281" data-name="Group 1281" transform="translate(120.451 291)">
+        <text id="B" transform="translate(-0.451 27.258)" fill="#a62ea9" font-size="29" font-family="SnellRoundhand, Snell Roundhand"><tspan x="0" y="0">B</tspan></text>
+        <text id="B-2" data-name="B" transform="translate(15.549 36.258)" fill="#a62ea9" font-size="29" font-family="SnellRoundhand, Snell Roundhand"><tspan x="0" y="0">B</tspan></text>
+      </g>
+      <text id="Better_Balance" data-name="Better 
+Balance" transform="translate(171 311.258)" fill="#a62ea9" font-size="9" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">BETTER</tspan><tspan y="0" font-family="ArialHebrewScholar-Bold, Arial Hebrew Scholar"> </tspan><tspan x="0" y="11">BALANCE</tspan></text>
+    </g>
+  </g>
+</svg>

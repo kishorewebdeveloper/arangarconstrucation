@@ -1,0 +1,169 @@
+<div class="h-100 bg-plum-plate bg-animation">
+    <div class="d-flex h-100 justify-content-center align-items-center">
+        <div class="mx-auto app-login-box col-md-10">
+            <div class="app-logo-inverse mx-auto mb-3"></div>
+            <div class="modal-dialog w-100">
+                <div class="modal-content">
+                    <form name="registerForm" [formGroup]="registerForm">
+                        <div class="modal-body">
+                            <h5 class="modal-title">
+                                <span>It only takes a <span class="text-success">few seconds</span> to create your account</span>
+                            </h5>
+
+                            <br />
+
+                            <div class="form-group">
+                                <div>
+                                    <label>Email Address</label>
+                                    <small tabindex="-1" class="form-text text-muted">
+                                        We'll never share your email with anyone else
+                                    </small>
+                                    <input type="text" formControlName="emailAddress" class="form-control"
+                                           placeholder="Email"
+                                           [ngClass]="{'is-invalid':(registerFormSubmitted || lf.emailAddress.touched) && lf.emailAddress.invalid,
+                                                        'is-valid': !lf.emailAddress.invalid}" />
+                                    <div *ngIf="(registerFormSubmitted || lf.emailAddress.touched) && lf.emailAddress.errors?.required"
+                                         class="help-block mt-1 text-danger">
+                                        Email is required
+                                    </div>
+                                    <div *ngIf="(registerFormSubmitted || lf.emailAddress.touched) && lf.emailAddress.errors?.email"
+                                         class="help-block mt-1 text-danger">
+                                        Please enter valid email
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div>
+                                    <label>Mobile Number</label>
+                                    <small tabindex="-1" class="form-text text-muted">
+                                        We'll never share your mobile number with anyone else
+                                    </small>
+                                    <input type="text" mask=" (000) 000 0000" prefix="+91" [showMaskTyped]="true"
+                                           formControlName="mobileNumber" class="form-control"
+                                           placeholder="Mobile Number"
+                                           [ngClass]="{'is-invalid': (registerFormSubmitted || lf.mobileNumber.touched) && lf.mobileNumber.invalid,
+                                                        'is-valid': registerFormSubmitted && !lf.mobileNumber.invalid }" />
+                                    <div *ngIf="(registerFormSubmitted || lf.mobileNumber.touched) && lf.mobileNumber.errors?.required"
+                                         class="help-block mt-1 text-danger">
+                                        Mobile Number is required
+                                    </div>
+                                    <div *ngIf="(registerFormSubmitted || lf.mobileNumber.touched) && lf.mobileNumber.errors?.invalid"
+                                         class="help-block mt-1 text-danger">
+                                        Invalid  Mobile Number
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <div>
+                                            <label>First Name</label>
+                                            <input type="text" formControlName="firstName" class="form-control"
+                                                   placeholder="First Name" maxlength="50"
+                                                   [ngClass]="{'is-invalid':(registerFormSubmitted || lf.firstName.touched) && lf.firstName.invalid,
+                                                               'is-valid': !lf.firstName.invalid }" />
+                                            <div *ngIf="(registerFormSubmitted || lf.firstName.touched) &&lf.firstName.errors?.required"
+                                                 class="help-block mt-1 text-danger">
+                                                First Name is required
+                                            </div>
+                                            <div *ngIf="(registerFormSubmitted || lf.firstName.touched) &&lf.firstName.errors?.pattern"
+                                            class="help-block mt-1 text-danger">
+                                          Enter valid First Name
+                                       </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <div>
+                                            <label>Last Name</label>
+                                            <input type="text" formControlName="lastName" class="form-control"
+                                                   placeholder="Last Name" maxlength="50"
+                                                   [ngClass]="{'is-invalid':(registerFormSubmitted || lf.lastName.touched) && lf.lastName.invalid,
+                                                                'is-valid': !lf.lastName.invalid}" />
+                                            <div *ngIf="(registerFormSubmitted || lf.lastName.touched) && lf.lastName.errors?.required"
+                                                 class="help-block mt-1 text-danger">
+                                                Last Name is required
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <div>
+                                            <label>Password</label>
+                                            <input type="password" formControlName="password"
+                                                   class="form-control"
+                                                   placeholder="Password"
+                                                   [ngClass]="{'is-invalid':(registerFormSubmitted || lf.password.touched) && lf.password.invalid,
+                                                                'is-valid': !lf.password.invalid}" />
+                                            <div *ngIf="(registerFormSubmitted || lf.password.touched) && lf.password.errors?.required"
+                                                 class="help-block mt-1 text-danger">
+                                                Password is required
+                                            </div>
+                                            <div *ngIf=" (registerFormSubmitted || lf.password.touched) && lf.password.errors?.pattern"
+                                                 class="help-block mt-1 text-danger">
+                                                Password must be 8-25 characters and at least 1 uppercase, 1 lowercase, 1 digit, 1 special character's (@#$%)
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <div>
+                                            <label for="confirmPassword">Confirm Password</label>
+                                            <input type="password" formControlName="confirmPassword"
+                                                   class="form-control" placeholder="Confirm Password"
+                                                   [ngClass]="{'is-invalid':(registerFormSubmitted ||lf.confirmPassword.touched) && lf.confirmPassword.invalid,
+                                                                'is-valid': !lf.confirmPassword.invalid}" />
+                                            <div *ngIf="(registerFormSubmitted ||lf.confirmPassword.touched) &&lf.confirmPassword.errors?.required" 
+                                                 class="help-block mt-1 text-danger">
+                                                Confirm Password is required
+                                            </div>
+                                            <div *ngIf="lf.confirmPassword.touched &&lf.password.touched &&lf.confirmPassword.value != lf.password.value" 
+                                                 class="help-block mt-1 text-danger">
+                                                Password and Confirm Password doesn't match
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input id="exampleCheck" type="checkbox" name="check"
+                                       formControlName="isTermsChecked"
+                                       autocomplete="off"
+                                       class="custom-control-input"
+                                       value="true">
+                                <label for="exampleCheck"
+                                       class="custom-control-label">
+                                    Accept our <a [routerLink]="">Terms and Conditions</a>.
+                                </label>
+                                <div *ngIf="(registerFormSubmitted || lf.isTermsChecked.touched) && lf.isTermsChecked.errors?.required"
+                                     class="help-block mt-1 text-danger">
+                                    Please accept Terms and Conditions
+                                </div>
+                            </div>
+                            <div class="divider"></div>
+                            <h6 class="mb-0">
+                                Already have an account?
+                                <a [routerLink]="'/login'" class="text-primary">Sign in</a>
+                            </h6>
+                        </div>
+                        <div class="modal-footer d-block text-center">
+                            <button type="button" (click)="onRegister()"
+                                    class="btn btn-wide btn-pill btn-shadow btn-hover-shine btn-primary">
+                                Create Account
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="text-center text-white opacity-8 mt-3">
+                Copyright © 2021
+            </div>
+        </div>
+    </div>
+</div>

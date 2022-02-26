@@ -1,0 +1,35 @@
+<div class="app-page-title">
+    <div class="page-title-wrapper">
+        <div class="page-title-heading">
+            <div class="page-title-icon">
+                <i class="icon {{icon}}"></i>
+            </div>
+            <div>
+                {{heading}}
+
+                
+                <div class="page-title-subheading">
+                    {{subheading}}
+                </div>
+            </div>
+        </div>
+        <div class="page-title-actions" *ngIf="isVisible">
+            <button type="button" 
+                    *ngIf="isRefreshVisible"
+                    class="mb-2 mr-2 btn-shadow d-inline-flex align-items-center btn btn-warning" 
+                    (click)="onRefreshClicked()">
+                    <i-feather name="Refresh-cw" class="mr-2"></i-feather>
+               
+                {{refreshButtonText}}
+            </button>
+            <button type="button" 
+                    *ngIf="isAddVisible"
+                    class="mb-2 mr-2 btn-shadow d-inline-flex align-items-center btn btn-primary"
+                    (click)="onAddNewClicked()">
+                    <i-feather name="Plus" class="mr-2"></i-feather>
+              
+                {{addNewButtonText}}
+            </button>
+        </div>
+    </div>
+</div>

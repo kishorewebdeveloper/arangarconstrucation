@@ -1,0 +1,123 @@
+.notification-wrapper {
+    position: relative;
+    padding: 8px 15px;
+    float: right;
+    border-radius: 5px;
+}
+
+.notification-wrapper .notification-btn {
+    font-size: 25px;
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.notification-wrapper .notification-btn:hover {
+    color: royalblue;
+    padding: 1px;
+    background-color: #ffffff;
+    border-radius: 500px;
+}
+
+.notification-wrapper .notification-content {
+    position: absolute;
+    top: 40px;
+    right: 5px;
+    width: 350px;
+    height: 200px;
+    background-color: whitesmoke;
+    z-index: 300;
+}
+
+
+.notification-wrapper .notification-header .label {
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    font-weight: 500;
+}
+
+// .dropdown-menu {
+//     display: block;
+//     top: 3%;
+//     border: none;
+//     width: 100%;
+//     border-radius: 0px;
+//     left: -1%;
+//     padding: 0px;
+// }
+
+.footer {
+    margin-top: 10px;
+    padding: 6px;
+    background-color: royalblue !important;
+}
+
+.notification-box {
+    padding: 10px 0px 10px 30px;
+    margin-left: -12%;
+}
+
+.bg-gray {
+    background-color: #eee;
+}
+
+.header-btn-lg .dropdown-toggle::after {
+    display: none;
+    top: 50%;
+    margin-top: -1px;
+    right: -3px;
+}
+
+.btn-link:hover {
+    color: #7455b0;
+    text-decoration: none;
+}
+
+.btn-link:focus, .btn-link.focus {
+    text-decoration: none;
+    box-shadow: none;
+}
+.notification-widget{
+
+    margin-top: -4%;
+    width: 25rem;
+    height: 26rem;
+    overflow-y: overlay;
+}
+
+.notification-widget::-webkit-scrollbar {
+    width: 4px;
+    /* border: 1px solid #868686; */
+    background: #d4d4d4;
+    border-radius: 10px;
+}
+
+.notification-header {
+    padding: 10px;
+    color: #ffffff;
+    background-color: royalblue !important;
+    margin-bottom: 10px;
+}
+.notification-list{
+    list-style: none;
+}
+.message-content{
+    margin-bottom:5px;
+}
+.msg-icon-box{
+   padding-top:0.5rem;
+   margin-top:10px;
+}
+.noti-circle{
+    background: #6e00ff;
+    width: 18px;
+    border-radius: 50%;
+    color: white;
+    font-size: 12px;
+    padding: 0px;
+    position: absolute;
+    left: 28px;
+    top: 10px;
+    z-index: 999;
+}
+

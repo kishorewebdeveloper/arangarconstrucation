@@ -1,0 +1,33 @@
+<app-page-title [isVisible]="true" [isAddVisible]="false" [isRefreshVisible]="true" [heading]="heading"
+    [subheading]="subheading" [icon]="icon" [refreshButtonText]="'Refresh'" [addNewButtonText]="'Add User'"
+    (onRefreshClick)="refreshClicked()">
+</app-page-title>
+
+<app-filter-data-table placeholder="Filter ..." (onFilterKeyPress)="filter($event)">
+</app-filter-data-table>
+
+<ngx-datatable class="bootstrap core-bootstrap" [rows]="rows" [columnMode]="ColumnMode.force" [headerHeight]="50"
+    [footerHeight]="50" [limit]="5" rowWidth="auto" rowHeight="auto">
+
+
+    <!-- <ngx-datatable-column name="S.No" prop="id">
+</ngx-datatable-column> -->
+
+    <ngx-datatable-column name="Full Name" prop="fullName">
+    </ngx-datatable-column>
+    <ngx-datatable-column name="Email" prop="emailAddress">
+    </ngx-datatable-column>
+    <ngx-datatable-column name="Mobile" prop="mobileNumber">
+    </ngx-datatable-column>
+
+    <ngx-datatable-column name="Actions">
+        <ng-template ngx-datatable-cell-template let-row="row">
+            <div>
+                <a class="danger p-0">
+                    <i-feather name="trash2" class="mr-2 fa-2x" title="Delete" (click)="onDelete(row)"></i-feather>
+                </a>
+            </div>
+        </ng-template>
+
+    </ngx-datatable-column>
+</ngx-datatable>

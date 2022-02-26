@@ -1,0 +1,47 @@
+<app-page-title [isVisible]="true"
+                [isAddVisible]="true"
+                [isRefreshVisible]="true"
+                [heading]="heading"
+                [subheading]="subheading"
+                [icon]="icon"
+                [refreshButtonText]="'Refresh'"
+                [addNewButtonText]="addButtonText"
+                (onRefreshClick)="refreshClicked()"
+                (onAddNewClick)="onNewClicked()">
+</app-page-title>
+
+<app-filter-data-table placeholder="Filter ..."
+                       (onFilterKeyPress)="filter($event)">
+</app-filter-data-table>
+
+<ngx-datatable class="bootstrap core-bootstrap"
+               [rows]="rows"
+               [columnMode]="ColumnMode.force"
+               [headerHeight]="50"
+               [footerHeight]="50"
+               [limit]="5"
+               rowWidth="auto"
+               rowHeight="auto">
+
+
+    <ngx-datatable-column name="Full Name" prop="fullName">
+    </ngx-datatable-column>
+
+    <ngx-datatable-column name="Email Address" prop="emailAddress">
+    </ngx-datatable-column>
+
+    <ngx-datatable-column name="Actions">
+        <ng-template ngx-datatable-cell-template let-row="row">
+            <div>
+                <a class="info p-0" (click)="onEdit(row)" *ngIf="!isOnEventParticipant">
+                    <i-feather name="edit" class="mr-2 fa-2x" title="Edit"></i-feather>
+                </a>
+                <a class="danger p-0">
+                    <i-feather name="trash2" class="mr-2 fa-2x" title="Delete" (click)="onDelete(row)"></i-feather>
+                </a>
+            </div>
+        </ng-template>
+    </ngx-datatable-column>
+
+
+</ngx-datatable>

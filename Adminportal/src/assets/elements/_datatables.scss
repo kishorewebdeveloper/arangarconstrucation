@@ -1,0 +1,36 @@
+@import '~@swimlane/ngx-datatable/index.css';
+@import '~@swimlane/ngx-datatable/themes/bootstrap.scss';
+@import '~@swimlane/ngx-datatable/assets/icons.css';
+
+// media query for Small & Medium devices
+@media (max-width: 768px) {
+    .page-count {
+        display: none;
+    }
+
+    .datatable-pager {
+        text-align: center !important;
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .desktop-hidden {
+        display: initial;
+    }
+
+    .mobile-hidden {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .desktop-hidden {
+        display: none;
+    }
+
+    .mobile-hidden {
+        display: initial;
+    }
+}
+

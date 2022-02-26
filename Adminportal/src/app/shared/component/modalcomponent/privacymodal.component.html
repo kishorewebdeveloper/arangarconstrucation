@@ -1,0 +1,55 @@
+<div class="modal-header">
+    <h4 class="modal-title">{{title}}</h4>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<form [formGroup]="form" novalidate="">
+    <div class="modal-body">
+        <section>
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-body ">
+                            <div class="row mb-md-3">
+                                <div class="col-md-6 col-12">
+                                    <div class="form-group row">
+                                        <label class="col-md-4 col-form-label" for="horizontal-form-3">
+                                            Privacy Type
+                                        </label>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div>
+                                                <div class="custom-radio custom-control custom-control-inline"
+                                                     *ngFor="let privacy of privacyTypeList">
+                                                    <input type="radio" id="privateRadio-{{privacy.key}}"
+                                                           formControlName="privacyType"
+                                                           value="{{privacy.key}}"
+                                                           [checked]="privacy.isSelected"
+                                                           class="custom-control-input">
+                                                    <label for="privateRadio-{{privacy.key}}" class="custom-control-label">{{privacy.value}}</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary mr-2" (click)="onCancel()">
+            <i-feather name="Minus" class="mr-2"></i-feather>Cancel
+        </button>
+        <button type="button" class="btn btn-primary" (click)="onSave()">
+            <i-feather name="check-square" class="mr-2"></i-feather>Save
+        </button>
+    </div>
+</form>

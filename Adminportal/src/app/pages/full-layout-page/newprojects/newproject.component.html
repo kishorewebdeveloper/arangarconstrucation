@@ -1,0 +1,264 @@
+<app-page-title [isVisible]="false" [heading]="heading" [subheading]="subheading" [icon]="icon">
+</app-page-title>
+
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-content">
+                <div class="card-body">
+                    <form [formGroup]="form" novalidate="">
+                        <div class="row mr-10">
+                            <div class="col-md-4">
+                                <div class="col-md-10">
+                                    <div class="form-group row">
+                                        <label for="horizontal-form-1">Project Name</label>
+
+                                        <input type="text" formControlName="projectName" class="form-control"
+                                            placeholder="Project Name" maxlength="25" autocomplete="off" [ngClass]="{ 'is-invalid': (isFormSubmitted || lf.projectName.touched) && lf.projectName.invalid,
+                                                                     'is-valid': !lf.projectName.invalid }">
+
+                                        <div *ngIf="(isFormSubmitted || lf.projectName.touched) && (lf.projectName.invalid && lf.projectName.errors?.required)"
+                                            class="help-block mt-1 text-danger">
+                                            Project Name is required
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="col-md-10">
+                                    <div class="form-group row">
+                                        <label for="horizontal-form-1">Title</label>
+
+                                        <input type="text" formControlName="title" class="form-control"
+                                            placeholder="Title" maxlength="25" autocomplete="off" [ngClass]="{ 'is-invalid': (isFormSubmitted || lf.title.touched) && lf.title.invalid,
+                                                                     'is-valid': !lf.title.invalid }">
+
+                                        <div *ngIf="(isFormSubmitted || lf.title.touched) && (lf.title.invalid && lf.title.errors?.required)"
+                                            class="help-block mt-1 text-danger">
+                                            Title is required
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <div class="col-md-10">
+                                    <label for="horizontal-form-3">
+                                        Service Type
+                                    </label>
+                                    
+                                        <ng-select bindLabel="value" placeholder="Select Service Type"
+                                                   formControlName="serviceType" [virtualScroll]="true"
+                                                   [ngClass]="{ 'is-invalid': isFormSubmitted && lf.serviceType.invalid, 'is-valid': isFormSubmitted && !lf.serviceType.invalid }">
+                                            <ng-option *ngFor="let item of serviceTypes" [value]="item.key">
+                                                {{item.value}}
+                                            </ng-option>
+                                        </ng-select>
+
+                                        <div *ngIf="(isFormSubmitted || lf.serviceType.touched) && (lf.serviceType.invalid || lf.serviceType.errors?.required)"
+                                             class="help-block mt-1 text-danger">
+                                             Service Type
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mr-10">
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <div class="col-md-10">
+                                        <label for="horizontal-form-3">Description</label>
+
+                                        <textarea type="text" formControlName="description" class="form-control"
+                                            placeholder="Description" maxlength="500" rows="5"> </textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <div class="col-md-10">
+                                        <label for="horizontal-form-3">Features</label>
+
+                                        <textarea type="text" formControlName="features" class="form-control"
+                                            placeholder="Features" maxlength="500" rows="5"> </textarea>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="col-md-10">
+                                    <div class="form-group row">
+                                        <label for="horizontal-form-1">BHK</label>
+
+                                        <input type="text" formControlName="bhk" class="form-control"
+                                            placeholder="BHK" maxlength="25" autocomplete="off">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mr-10">
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <div class="col-md-10">
+                                        <label for="horizontal-form-3">Address</label>
+
+                                        <input type="text" formControlName="address1" class="form-control"
+                                            placeholder="Address" maxlength="25" autocomplete="off" [ngClass]="{ 'is-invalid': (isFormSubmitted || lf.address1.touched) && lf.address1.invalid,
+                                                                     'is-valid': !lf.address1.invalid }">
+
+                                        <div *ngIf="(isFormSubmitted || lf.address1.touched) && (lf.address1.invalid && lf.address1.errors?.required)"
+                                            class="help-block mt-1 text-danger">
+                                            Address is required
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="col-md-10">
+                                    <div class="form-group row">
+                                        <label for="horizontal-form-1">Address1</label>
+
+                                        <input type="text" formControlName="address2" class="form-control"
+                                            placeholder="Address1" maxlength="25" autocomplete="off">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="col-md-10">
+                                    <div class="form-group row">
+                                        <label for="horizontal-form-1">LandMark</label>
+
+                                        <input type="text" formControlName="landMark" class="form-control"
+                                            placeholder="LandMark" maxlength="25" autocomplete="off" [ngClass]="{ 'is-invalid': (isFormSubmitted || lf.landMark.touched) && lf.landMark.invalid,
+                                                                     'is-valid': !lf.landMark.invalid }">
+
+                                        <div *ngIf="(isFormSubmitted || lf.landMark.touched) && (lf.landMark.invalid && lf.landMark.errors?.required)"
+                                            class="help-block mt-1 text-danger">
+                                            LandMark is required
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mr-10">
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <div class="col-md-10">
+                                        <label for="horizontal-form-3">City</label>
+
+                                        <input type="text" formControlName="city" class="form-control"
+                                            placeholder="City" maxlength="25" autocomplete="off" [ngClass]="{ 'is-invalid': (isFormSubmitted || lf.city.touched) && lf.city.invalid,
+                                                                     'is-valid': !lf.city.invalid }">
+
+                                        <div *ngIf="(isFormSubmitted || lf.city.touched) && (lf.city.invalid && lf.city.errors?.required)"
+                                            class="help-block mt-1 text-danger">
+                                            City is required
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="col-md-10">
+                                    <div class="form-group row">
+                                        <label for="horizontal-form-1">State</label>
+
+                                        <input type="text" formControlName="state" class="form-control"
+                                            placeholder="State" maxlength="25" autocomplete="off" [ngClass]="{ 'is-invalid': (isFormSubmitted || lf.state.touched) && lf.state.invalid,
+                                                                     'is-valid': !lf.state.invalid }">
+
+                                        <div *ngIf="(isFormSubmitted || lf.state.touched) && (lf.state.invalid && lf.state.errors?.required)"
+                                            class="help-block mt-1 text-danger">
+                                            State is required
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="col-md-10">
+                                    <div class="form-group row">
+                                        <label for="horizontal-form-3">
+                                            PinCode
+                                        </label>
+
+                                        <input type="number" formControlName="pinCode" class="form-control"
+                                            placeholder="PinCode" maxlength="15" autocomplete="off" [ngClass]="{ 'is-invalid': (isFormSubmitted || lf.pinCode.touched) && lf.pinCode.invalid,
+                                                          'is-valid': !lf.pinCode.invalid }">
+
+                                        <div *ngIf="(isFormSubmitted || lf.pinCode.touched) && (lf.pinCode.invalid && lf.pinCode.errors?.required)"
+                                            class="help-block mt-1 text-danger">
+                                            PinCode is required
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                        <div class="row mr-10" *ngIf="id > 0">
+                            <div class="col-xl-4 col-lg-6 col-md-6 col-12"
+                                *ngFor="let item of projectImages; let i = index">
+                                <div class="card-hover-shadow-2x mb-3 card">
+                                    <div class="card-header-tab card-header">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="
+                                                    card-header-title
+                                                    font-size-lg
+                                                    text-capitalize
+                                                    font-weight-normal
+                                                  ">
+                                                <i class="fa fa-picture-o fa-2x mr-1"> </i> Image {{ i + 1 }}
+                                            </div>
+                                            <label class="fileLabel" title="Add Image {{ i + 1 }}" *ngIf="item.id == 0">
+                                                <i-feather name="Plus" class="mr-1 text-primary"></i-feather>
+
+                                                <input type="file" class="file" accept=".png, .jpg, .jpeg" ngFileSelect
+                                                    [options]="options" (uploadOutput)="onUploadOutput($event)"
+                                                    [uploadInput]="uploadInput" />
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="card-body">
+                                            <span class="d-block mb-4 h-20">
+                                                <img [src]="item.image" class="img-fluid img-thumbnail"
+                                                    *ngIf="item.id != 0" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer" *ngIf="item.id != 0">
+                                        <div class="button-bar">
+                                            <button type="button" class="btn btn-icon btn-icon-only btn-link"
+                                                title="Delete" (click)="deleteProjectImage(item.id)">
+                                                <i-feather name="Trash2"></i-feather>
+                                            </button>
+                                            <button type="submit" class="btn btn-icon btn-icon-only btn-link"
+                                                title="Download" (click)="downloadImage(item)">
+                                                <i-feather name="Download"></i-feather>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="button-bar pull-right">
+                            <button type="button"
+                                class="mb-2 mr-2 btn-shadow d-inline-flex align-items-center btn btn-warning"
+                                (click)="cancel()">
+                                <i-feather name="Minus" class="mr-2"></i-feather> Cancel
+                            </button>
+                            <button type="submit"
+                                class="mb-2 mr-2 btn-shadow d-inline-flex align-items-center btn btn-primary"
+                                (click)="onSubmit()">
+                                <i-feather name="Save" class="mr-2"></i-feather>Save
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

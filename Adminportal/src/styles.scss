@@ -1,0 +1,130 @@
+@import "assets/base";
+
+.notifications-container {
+    line-height: 60px !important;
+    width: 100%;
+}
+
+notification-bar {
+    z-index: 99999;
+}
+
+.notification {
+    font-size: 17px !important;
+}
+
+textarea {
+    resize: none;
+}
+
+.datatable-footer {
+    background: white !important;
+    color: black !important;
+    border-top: 1px solid #d4d4d4;
+    margin-top: 10px !important;
+}
+
+.danger {
+    color: #F55252 !important;
+}
+
+ngb-modal-window.d-block.modal.fade.show {
+    z-index: 9998 !important;
+}
+
+.text-primary {
+    color: #d822b1 !important;   
+}
+
+.button-bar {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.ps-content {
+    height: 100% !important;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #d822b1;
+}
+
+.btn-primary {
+    color: #fff;
+    background: #7455b0 linear-gradient(
+180deg
+, #7455b0, #7455b0) repeat-x;
+    border-color: #7455b0;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background: #4b1fa5 linear-gradient(
+180deg
+, #4b1fa5, #4b1fa5) repeat-x;
+    border-color: #4b1fa5;
+ 
+}
+
+.btn-warning {
+    color: #fff;
+    background: #989898 linear-gradient(
+180deg
+, #989898, #989898) repeat-x;
+    border-color: #989898;
+}
+
+.btn-warning:hover {
+    color: #fff;
+    background: #272727 linear-gradient(
+180deg
+, #272727, #272727) repeat-x;
+    border-color: #272727;
+}
+
+.app-page-title {
+    margin: -30px -30px 0px;
+}
+
+.app-theme-white .app-page-title {
+    background: none !important;
+}
+.app-custom-card{
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 10px -1px rgba(97, 97, 97, 0.3);
+}
+.icon-cus-size{
+    width: 18px !important;
+    cursor: pointer;
+}
+.mr-10{
+    margin-bottom: 1rem;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border:none !important;
+    border-radius: 6px !important;
+    box-shadow: 1px 2px 10px -1px rgba(97, 97, 97, 0.3);
+}
+.fa-2x {
+    font-size: 1em !important;
+}
+
+.cursor-pointer {
+    cursor: pointer
+}
+
+
+  
+
+  

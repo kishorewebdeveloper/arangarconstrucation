@@ -1,0 +1,38 @@
+<div class="modal-header">
+    <h4 class="modal-title">{{title}}</h4>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="modal-body">
+    <div class="row">
+        <div class="col-xl-4 col-lg-6 col-md-6 col-12" >
+            <div class="card-hover-shadow-2x mb-3 card">
+                <div class="card-header-tab card-header">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="
+                    card-header-title
+                    font-size-lg
+                    text-capitalize
+                    font-weight-normal
+                  ">
+                            <i class="fa fa-picture-o fa-2x mr-1"> </i> Image
+                        </div>
+                        <label class="fileLabel" title="Add Image">
+                            <i-feather name="Plus" class="mr-1 text-primary"></i-feather>
+
+                            <input type="file" class="file" accept=".png, .jpg, .jpeg" ngFileSelect 
+                                (uploadOutput)="onUploadOutput($event)"  />
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal-footer">
+    <button type="button" class="btn btn-secondary mr-2" (click)="onCancel()">
+        <!-- <i-feather name="Minus" class="mr-2"></i-feather>-->Cancel
+    </button>
+</div>
