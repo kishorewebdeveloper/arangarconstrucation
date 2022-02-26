@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<!--<MvcRazorExcludeRefAssembliesFromPublish>true</MvcRazorExcludeRefAssembliesFromPublish>-->
+ 	</PropertyGroup>
+	
+	<ItemGroup>
+		<None Remove="Email\Templates\ForgotPassword\ForgotPassword.html" />
+		<None Remove="Email\Templates\Images\logo.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Email\Templates\ForgotPassword\ForgotPassword.html">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="Email\Templates\Images\logo.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="10.1.1" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+		<PackageReference Include="Ben.Demystifier" Version="0.4.1" />
+		<PackageReference Include="ElmahCore" Version="2.0.7" />
+		<PackageReference Include="FluentEmail.Core" Version="3.0.0" />
+		<PackageReference Include="FluentEmail.Razor" Version="3.0.0" />
+		<PackageReference Include="FluentEmail.Smtp" Version="3.0.0" />
+		<PackageReference Include="FluentValidation" Version="10.3.3" />
+		<PackageReference Include="FluentValidation.AspNetCore" Version="10.3.3" />
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Caching.Extensions\Caching.Extensions.csproj" />
+		<ProjectReference Include="..\Common\Common.csproj" />
+		<ProjectReference Include="..\Data\Data.csproj" />
+		<ProjectReference Include="..\Hangfire.MediatR\Hangfire.MediatR.csproj" />
+		<ProjectReference Include="..\ViewModel\ViewModel.csproj" />
+	</ItemGroup>
+
+</Project>
