@@ -1,0 +1,110 @@
+<div class="container-fluid top-con-bar">
+  <div class="top-information-bar">
+    <div class="contact-bar"><i class="fa fa-phone"></i> +91 44 24420949</div>
+    <div class="quicklink-div">
+      <a href="#"> <i class="fa fa-facebook-square"></i></a>
+      <a href="#"> <i class="fa fa-instagram"></i></a>
+      <a href="#"> <i class="fa fa-twitter-square"></i></a>
+    </div>
+  </div>
+</div>
+<nav
+  id="navbar-main"
+  class="navbar navbar-main navbar-expand-lg"
+  style="
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  "
+>
+  <div class="container-fluid">
+    <div class="logo-div">
+      <img src="./assets/img/brand/arangar-logo.svg" />
+    </div>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      (click)="isCollapsed = !isCollapsed"
+      [attr.aria-expanded]="!isCollapsed"
+      aria-controls="navbar_global"
+    >
+      <span class="navbar-toggler-icon">
+        <i class="fa fa-bars" style="color: #033e96"></i>
+      </span>
+    </button>
+    <div
+      class="navbar-collapse collapse"
+      id="navbar_global"
+      [ngbCollapse]="isCollapsed"
+    >
+      <div class="navbar-collapse-header">
+        <div class="row">
+          <div class="col-6 collapse-brand">
+            <a [routerLink]="['/home']"> Arangar Construction </a>
+          </div>
+          <div class="col-6 collapse-close">
+            <button
+              type="button"
+              class="navbar-toggler"
+              (click)="isCollapsed = !isCollapsed"
+              [attr.aria-expanded]="!isCollapsed"
+              aria-controls="navbar_global"
+            >
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+        <li class="nav-item dropdown">
+          <a [routerLink]="['/home']" class="dropdown-item">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a [routerLink]="['/about']" class="dropdown-item">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a [routerLink]="['/services', 'flats']" class="dropdown-item">
+            Flats</a
+          >
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            [routerLink]="['/services', 'cmda-approved-plots']"
+            class="dropdown-item"
+            >Plots</a
+          >
+        </li>
+
+        <li class="nav-item dropdown">
+          <a
+            [routerLink]="['/services', 'luxury-villas']"
+            class="dropdown-item"
+          >
+            Villas</a
+          >
+        </li>
+        <li class="nav-item dropdown">
+          <a [routerLink]="['/joinventures']" class="dropdown-item">
+            Join Ventures</a
+          >
+        </li>
+        <li class="nav-item dropdown">
+          <a [routerLink]="['/services', 'Construction']" class="dropdown-item">
+            Constructions</a
+          >
+        </li>
+
+        <!-- <li class="nav-item dropdown">
+          <a [routerLink]="['/projects']" class="dropdown-item">Projects</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a [routerLink]="['/gallery']" class="dropdown-item">Gallery</a>
+        </li> -->
+        <li class="nav-item dropdown">
+          <a [routerLink]="['/contact']" class="dropdown-item">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

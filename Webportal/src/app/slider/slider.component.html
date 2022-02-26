@@ -1,0 +1,34 @@
+
+      <div class="theme-container stats-section" style="color:#727272;">
+
+        <ngb-carousel [interval]="1000" >
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img [src]="webImages[0]" alt="Random first slide" class="web-view width">
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img [src]="webImages[1]" alt="Random second slide" class="web-view width">
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img [src]="webImages[2]" alt="Random second slide" class="web-view width">
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img [src]="webImages[3]" alt="Random second slide" class="web-view width">
+            </div>
+          </ng-template>
+    
+        </ngb-carousel>
+    
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4"></div>
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+    

@@ -1,0 +1,76 @@
+/* You can add global styles to this file, and also import other style files */
+.sec-title {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+}
+.sec-title h2 {
+  font-weight: 600;
+}
+.sp-txt {
+  color: #0093ff;
+}
+.about-content-sec {
+  padding: 20px 0 10px 0;
+}
+.gray-bg {
+  background-color: #f7f7f7;
+}
+.service-box {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem 0 1rem 0;
+  cursor: pointer;
+  flex-direction: column;
+}
+.service-box .top-box {
+  display: flex;
+}
+.service-box .icon-circle {
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.service-box:hover .icon-circle {
+  background-color: #0093ff;
+}
+.service-box .icon-circle i {
+  font-size: 26px;
+  padding: 17px 0px 0px 20px;
+  color: #0093ff;
+}
+.service-box:hover .icon-circle i {
+  color: white;
+}
+.service-box .service-title {
+  padding: 10px;
+  width: 80%;
+}
+.service-title p {
+  font-size: 13px;
+}
+.project-box {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.project-box .project-details {
+  padding: 10px 0 10px 20px;
+}
+.project-box .project-details p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.project-box .project-details i {
+  margin-right: 10px;
+}
+.project-box .project-details h6 {
+  font-size: 20px;
+  color: #0093ff;
+  text-align: center;
+  margin-bottom: 14px;
+  margin-top: 10px;
+}
+.margin-0 {
+  margin: 0;
+}

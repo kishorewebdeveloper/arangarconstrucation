@@ -1,0 +1,23 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Lucid Dream",
+      "subTitle": "Never Burn Out",
+      "description": "Infused with Amethyst healing crystals, essential oils, natural herbs. This 16 oz soy candle is a natural tranquilizer that relieves stress and strain, soothes irritability, fear and anxiety. This aromatic blend restores Better Balance while helping alleviate grief and dissolve negative energy",
+      "productInfo": "Essential Oils: Lavender, Chamomile, Eucalyptus Sandalwood Type: Soy candle,Pour: 16 oz, Crystal type: Amethyst, Burn time: ",
+      "cost": "$30",
+      "autoRenew": "$21",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        },
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    }
+  ]
+}

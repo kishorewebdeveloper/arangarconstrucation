@@ -1,0 +1,17 @@
+{
+  "virtualClass": [
+    {
+      "id": "1",
+      "name": "Zen Meditation",
+      "description": "This is a great space to update your audience with a description of your video. Include information like what the video is about, who produced it, where it was filmed, and why it’s a must-see for viewers. Remember this is a showcase for your professional work, so be sure to use intriguing language that engages viewers and invites them to sit back and enjoy.",
+      "videoURL": "http://wwww.youtube.com/si9xyyc",
+      "subscriberOnly": "true",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1440 @@
+{
+  "services": [
+    {
+      "projectId": "1",
+      "projectName": "Ishwarya Garden",
+      "title": "Ishwarya Garden",
+      "description": "Best property near medavakkam very close to tambram railway station and Siruseri IT part",
+      "address1": "Plot no.2B, Ishwarya Garden Extn, 3rd Street, Medavakkam.",
+      "address2": "Medavakkam",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK ",
+      "features": "from 670 sq.ft to 1454 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "luxury-villas",
+      "facing": "",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/flat1.png"
+        },
+        {
+          "imageId": 2,
+          "imagesURL": "/assets/img/brand/floor-plan-1.png"
+        }
+      ]
+    },
+    {
+      "projectId": "2",
+      "projectName": "Ishwarya Garden",
+      "title": "Ishwarya Garden",
+      "description": "Best property near medavakkam very close to tambram railway station and Siruseri IT part",
+      "address1": "Plot no.2B, Ishwarya Garden Extn, 3rd Street, Medavakkam.",
+      "address2": "Medvakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK ",
+      "features": "1454 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "luxury-villas",
+      "facing": "",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/flat2.png"
+        },
+        {
+          "imageId": 2,
+          "imagesURL": "/assets/img/brand/floor-plan-1.png"
+        }
+      ]
+    },
+    {
+      "projectId": "3",
+      "projectName": "Srilekha Homes",
+      "title": "Srilekha Homes",
+      "description": "",
+      "address1": "Plot no #, 1st street Ishwarya Garden",
+      "address2": "Ishwarya Garden",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "",
+      "features": "",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "cmda-approved-plots",
+      "facing": "West",
+      "measurement": "1150 Sq.ft",
+      "roadWidth": "30 Feet",
+      "frentage": "35 Feet",
+      "length": "34",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/plot-1.png"
+        }
+      ]
+    },
+    {
+      "projectId": "4",
+      "projectName": "Srilekha Homes",
+      "title": "Srilekha Homes",
+      "description": "",
+      "address1": "Palm 2nd Street",
+      "address2": "Palm 2nd Street",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "",
+      "features": "",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "cmda-approved-plots",
+      "facing": "North",
+      "measurement": "1500 Sq.ft",
+      "roadWidth": "30 Feet",
+      "frentage": "40 Feet",
+      "length": "37",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/plot-1.png"
+        }
+      ]
+    },
+    {
+      "projectId": "5",
+      "projectName": "Srilekha Homes",
+      "title": "Srilekha Homes",
+      "description": "",
+      "address1": "3rd Street",
+      "address2": "3rd Street",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "",
+      "features": "",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "cmda-approved-plots",
+      "facing": "North",
+      "measurement": "938 Sq.ft",
+      "roadWidth": "24 Feet",
+      "frentage": "30 Feet",
+      "length": "31",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/plot-1.png"
+        }
+      ]
+    },
+    {
+      "projectId": "6",
+      "projectName": "Srilekha Homes",
+      "title": "Srilekha Homes",
+      "description": "",
+      "address1": "Plot No 4, Madurapakkam",
+      "address2": "Madurapakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "",
+      "features": "",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "cmda-approved-plots",
+      "facing": "East",
+      "measurement": "1717 Sq.ft",
+      "roadWidth": "24 Feet",
+      "frentage": "45 Feet",
+      "length": "38",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/plot-1.png"
+        }
+      ]
+    },
+    {
+      "projectId": "7",
+      "projectName": "Srilekha Homes",
+      "title": "Srilekha Homes",
+      "description": "",
+      "address1": "Plot No 5, Madurapakkam",
+      "address2": "Madurapakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "",
+      "features": "",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "cmda-approved-plots",
+      "facing": "East",
+      "measurement": "1631 Sq.ft",
+      "roadWidth": "24 Feet",
+      "frentage": "44 Feet",
+      "length": "37",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/plot-1.png"
+        }
+      ]
+    },
+    {
+      "projectId": "8",
+      "projectName": "Srilekha Homes",
+      "title": "Srilekha Homes",
+      "description": "",
+      "address1": "25 Cent, Ponmar",
+      "address2": "Ponmar",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "",
+      "features": "",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "cmda-approved-plots",
+      "facing": "East",
+      "measurement": "25 Cent",
+      "roadWidth": "-",
+      "frentage": "-",
+      "length": "-",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/plot-1.png"
+        }
+      ]
+    },
+    {
+      "projectId": "9",
+      "projectName": "Srilekha Homes",
+      "title": "Srilekha Homes",
+      "description": "",
+      "address1": "25 Cent, Ponmar",
+      "address2": "Ponmar",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "",
+      "features": "",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "cmda-approved-plots",
+      "facing": "East",
+      "measurement": "25 Cent",
+      "roadWidth": "-",
+      "frentage": "-",
+      "length": "-",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/plot-1.png"
+        }
+      ]
+    },
+    {
+      "projectId": "10",
+      "projectName": "Srilekha Homes",
+      "title": "Srilekha Homes",
+      "description": "",
+      "address1": "3B Ottiymbakkam",
+      "address2": "Ottiymbakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "",
+      "features": "",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "cmda-approved-plots",
+      "facing": "North",
+      "measurement": "1080 Sq.ft",
+      "roadWidth": "24 Feet",
+      "frentage": "22 Feet",
+      "length": "49 Feet",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/plot-1.png"
+        }
+      ]
+    },
+    {
+      "projectId": "11",
+      "projectName": "Srilekha Homes",
+      "title": "Srilekha Homes",
+      "description": "",
+      "address1": "6B Ottiymbakkam",
+      "address2": "Ottiymbakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "",
+      "features": "",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "cmda-approved-plots",
+      "facing": "South",
+      "measurement": "1100 Sq.ft",
+      "roadWidth": "24 Feet",
+      "frentage": "22 Feet",
+      "length": "49 Feet",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/plot-1.png"
+        }
+      ]
+    },
+    {
+      "projectId": "12",
+      "projectName": "Srilekha Homes",
+      "title": "Srilekha Homes",
+      "description": "",
+      "address1": "7B Ottiymbakkam",
+      "address2": "Ottiymbakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "",
+      "features": "",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "cmda-approved-plots",
+      "facing": "South",
+      "measurement": "1100 Sq.ft",
+      "roadWidth": "24 Feet",
+      "frentage": "22 Feet",
+      "length": "49 Feet",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/plot-1.png"
+        }
+      ]
+    },
+    {
+      "projectId": "13",
+      "projectName": "Srilekha Homes",
+      "title": "Srilekha Homes",
+      "description": "",
+      "address1": "K1, 3rd Street Ishwarya Garden",
+      "address2": "Ishwarya Garden",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "",
+      "features": "",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "cmda-approved-plots",
+      "facing": "North",
+      "measurement": "2306 Sq.ft",
+      "roadWidth": "30 Feet",
+      "frentage": "33 Feet",
+      "length": "70 Feet",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/plot-1.png"
+        }
+      ]
+    },
+    {
+      "projectId": "14",
+      "projectName": "Srilekha Homes",
+      "title": "Srilekha Homes",
+      "description": "",
+      "address1": "K2, 3rd Street Ishwarya Garden",
+      "address2": "Ishwarya Garden",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "",
+      "features": "",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "cmda-approved-plots",
+      "facing": "North",
+      "measurement": "2240 Sq.ft",
+      "roadWidth": "30 Feet",
+      "frentage": "33 Feet",
+      "length": "70 Feet",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/plot-1.png"
+        }
+      ]
+    },
+    {
+      "projectId": "15",
+      "projectName": "Srilekha Homes",
+      "title": "Srilekha Homes",
+      "description": "",
+      "address1": "K3, 3rd Street Ishwarya Garden",
+      "address2": "Ishwarya Garden",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "",
+      "features": "",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "cmda-approved-plots",
+      "facing": "North",
+      "measurement": "2283 Sq.ft",
+      "roadWidth": "30 Feet",
+      "frentage": "33 Feet",
+      "length": "70 Feet",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/plot-1.png"
+        }
+      ]
+    },
+    {
+      "projectId": "16",
+      "projectName": "Srilekha Homes",
+      "title": "Srilekha Homes",
+      "description": "",
+      "address1": "K4, 3rd Street Ishwarya Garden",
+      "address2": "Ishwarya Garden",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "",
+      "features": "",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "cmda-approved-plots",
+      "facing": "North",
+      "measurement": "2122 Sq.ft",
+      "roadWidth": "30 Feet",
+      "frentage": "33 Feet",
+      "length": "70 Feet",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/plot-1.png"
+        }
+      ]
+    },
+    {
+      "projectId": "17",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "2B Medavakkam",
+      "address2": "Medavakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "3BHK",
+      "features": "1168 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "18",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "3F Medavakkam",
+      "address2": "Medavakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "3BHK",
+      "features": "1408 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "19",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "4A Medavakkam",
+      "address2": "Medavakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "3BHK",
+      "features": "1424 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "South",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "20",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "F2/S2 Medavakkam",
+      "address2": "Medavakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "858 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "East",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "20",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "F3/S3 Medavakkam",
+      "address2": "Medavakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "834 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "South",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "21",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "S1 Sowmiya Nagar",
+      "address2": "Sowmiya Nagar",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "1010 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "22",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "S2 Sowmiya Nagar",
+      "address2": "Sowmiya Nagar",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "918 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "23",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "T1 Sowmiya Nagar",
+      "address2": "Sowmiya Nagar",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "1010 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "24",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "T2 Sowmiya Nagar",
+      "address2": "Sowmiya Nagar",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "918 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "25",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "Resale Flats",
+      "address1": "G1 Medavakkam",
+      "address2": "Medavakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "810 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "South",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "26",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "F1 Sithalapakkam",
+      "address2": "Sithalapakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "920 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "27",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "S1 Sithalapakkam",
+      "address2": "Sithalapakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "920 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "27",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "S1 Sithalapakkam",
+      "address2": "Sithalapakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "920 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "28",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "T1 Sithalapakkam",
+      "address2": "Sithalapakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "920 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "29",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "T2 Sithalapakkam",
+      "address2": "Sithalapakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "920 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "30",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "F2 Sithalapakkam",
+      "address2": "Sithalapakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "925 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "31",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "F2 Sithalapakkam",
+      "address2": "Sithalapakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "925 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "32",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "S1 Sithalapakkam",
+      "address2": "Sithalapakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "1000 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "South",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "33",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "S2 Sithalapakkam",
+      "address2": "Sithalapakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "925 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "34",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "S3 Sithalapakkam",
+      "address2": "Sithalapakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "940 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "35",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "T2 Sithalapakkam",
+      "address2": "Sithalapakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "1125 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "36",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "1B/2B Medavakkam",
+      "address2": "Medavakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "3BHK",
+      "features": "1280 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "East",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "37",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "3A Medavakkam",
+      "address2": "Medavakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "1045 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "East",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "38",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "3B Medavakkam",
+      "address2": "Medavakkam",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "3BHK",
+      "features": "1280 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "East",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "38",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "102 Sowmiya Nagar",
+      "address2": "Sowmiya Nagar",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "942 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "39",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "103 Sowmiya Nagar",
+      "address2": "Sowmiya Nagar",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "961 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "39",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "201 Sowmiya Nagar",
+      "address2": "Sowmiya Nagar",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "990 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "40",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "202 Sowmiya Nagar",
+      "address2": "Sowmiya Nagar",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "942 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "41",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "203 Sowmiya Nagar",
+      "address2": "Sowmiya Nagar",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "961 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "42",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "301 Sowmiya Nagar",
+      "address2": "Sowmiya Nagar",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "1232 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "42",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "",
+      "address1": "302 Sowmiya Nagar",
+      "address2": "Sowmiya Nagar",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "1209 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "flats",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "21",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "Under Construction",
+      "address1": "S1 Sowmiya Nagar",
+      "address2": "Sowmiya Nagar",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "1010 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "Construction",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "22",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "Under Construction",
+      "address1": "S2 Sowmiya Nagar",
+      "address2": "Sowmiya Nagar",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "918 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "Construction",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "23",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "Under Construction",
+      "address1": "T1 Sowmiya Nagar",
+      "address2": "Sowmiya Nagar",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "1010 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "Construction",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    },
+    {
+      "projectId": "24",
+      "projectName": "Srilekha Flats",
+      "title": "Srilekha Flats",
+      "description": "Under Construction",
+      "address1": "T2 Sowmiya Nagar",
+      "address2": "Sowmiya Nagar",
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "pinCode": "600 001",
+      "landMark": "Near A School",
+      "bhk": "2BHK",
+      "features": "918 Sq.ft",
+      "lat": "0",
+      "lng": "0",
+      "serviceType": "Construction",
+      "facing": "North",
+      "measurement": "",
+      "roadWidth": "",
+      "frentage": "",
+      "length": "",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+<main>
+  <section class="section section-lg pt-lg-0 product-section">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="sec-title margin-0">
+            <h4 class="page-title">{{ pageTitle }}</h4>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+              <div class="breadcrumb">
+                <p>
+                  <a [routerLink]="['/home']">Home</a> /
+                  {{ projectDetail?.serviceType }} /
+                  {{ pageTitle }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-1"></div>
+
+            <div class="col-md-10">
+              <div class="detail-box">
+                <div class="img-container">
+                  <img
+                    [src]="projectDetail?.images[0]?.imagesURL"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="content-right">
+                  <h6>{{ projectDetail?.title }}</h6>
+                  <p>{{ projectDetail?.description }}</p>
+                  <p *ngIf="projectDetail?.bhk">
+                    <i class="fa fa-thumbs-up">&nbsp;</i
+                    >{{ projectDetail?.bhk }}
+                  </p>
+                  <p *ngIf="projectDetail?.features">
+                    <i class="fa fa-thumbs-up">&nbsp;</i
+                    >{{ projectDetail?.features }}
+                  </p>
+                  <p *ngIf="projectDetail?.address2">
+                    <i class="fa fa-thumbs-up">&nbsp;</i>Located at
+                    {{ projectDetail?.address2 }}
+                  </p>
+                  <p *ngIf="projectDetail?.facing">
+                    <i class="fa fa-thumbs-up"></i>
+                    {{ projectDetail?.facing }} facing
+                  </p>
+
+                  <p *ngIf="projectDetail?.address1">
+                    <i class="fa fa-thumbs-up"></i>
+                    {{ projectDetail?.address1 }}
+                  </p>
+                  <p *ngIf="projectDetail?.measurement">
+                    <i class="fa fa-thumbs-up"></i>
+                    Area : {{ projectDetail?.measurement }}
+                  </p>
+                  <p *ngIf="projectDetail?.roadWidth">
+                    <i class="fa fa-thumbs-up"></i>
+                    Road Width : {{ projectDetail?.measurement }}
+                  </p>
+                  <p *ngIf="projectDetail?.frentage">
+                    <i class="fa fa-thumbs-up"></i>
+                    Frontage : {{ projectDetail?.frentage }}
+                  </p>
+                  <p *ngIf="projectDetail?.length">
+                    <i class="fa fa-thumbs-up"></i>
+                    Length : {{ projectDetail?.length }}
+                  </p>
+
+                  <div class="btn-container">
+                    <button class="btn btn-success outline-btn">View</button>
+                    <button class="btn btn-success">Contact</button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="detail-box floor-box"
+                *ngIf="projectDetail?.images[1]"
+              >
+                <div class="more-img">
+                  <div class="img-container">
+                    <img
+                      [src]="projectDetail?.images[1]?.imagesURL"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

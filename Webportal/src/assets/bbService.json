@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Guided Meditations",
+      "description": "Guided meditation describes a form of meditation which utilizes a number of different techniques to achieve or enhance the meditative state. It may simply be meditation done under the guidance of a trained practitioner or teacher, or it may be through the use of imagery, music, and other techniques.",
+      "videoURL": "http://wwww.youtube.com/si9xyyc",
+      "cost": "$30",
+      "autoRenew": "$29",
+      "images": [
+        {
+          "imageId": 1,
+          "imagesURL": "/assets/img/brand/project-1.jpg"
+        }
+      ]
+    }
+  ]
+}
