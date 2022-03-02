@@ -9,7 +9,7 @@
                 <div class="card-body">
                     <form [formGroup]="form" novalidate="">
                         <div class="row mr-10">
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="col-md-10">
                                     <div class="form-group row">
                                         <label for="horizontal-form-1">Project Name</label>
@@ -25,7 +25,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="col-md-10">
                                     <div class="form-group row">
                                         <label for="horizontal-form-1">Title</label>
@@ -42,31 +42,45 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4">
+
+                        </div>
+                        <div class="row mr-10">
+                            <div class="col-md-6">
                                 <div class="form-group row">
                                     <div class="col-md-10">
-                                    <label for="horizontal-form-3">
-                                        Service Type
-                                    </label>
-                                    
+                                        <label for="horizontal-form-3">
+                                            Service Type
+                                        </label>
+
                                         <ng-select bindLabel="value" placeholder="Select Service Type"
-                                                   formControlName="serviceType" [virtualScroll]="true"
-                                                   [ngClass]="{ 'is-invalid': isFormSubmitted && lf.serviceType.invalid, 'is-valid': isFormSubmitted && !lf.serviceType.invalid }">
+                                            formControlName="serviceType" [virtualScroll]="true"
+                                            [ngClass]="{ 'is-invalid': isFormSubmitted && lf.serviceType.invalid, 'is-valid': isFormSubmitted && !lf.serviceType.invalid }">
                                             <ng-option *ngFor="let item of serviceTypes" [value]="item.key">
                                                 {{item.value}}
                                             </ng-option>
                                         </ng-select>
 
                                         <div *ngIf="(isFormSubmitted || lf.serviceType.touched) && (lf.serviceType.invalid || lf.serviceType.errors?.required)"
-                                             class="help-block mt-1 text-danger">
-                                             Service Type
+                                            class="help-block mt-1 text-danger">
+                                            Service Type
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="col-md-10">
+                                    <div class="form-group row">
+                                        <label for="horizontal-form-1">BHK</label>
+
+                                        <input type="text" formControlName="bhk" class="form-control" placeholder="BHK"
+                                            maxlength="25" autocomplete="off">
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row mr-10">
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="form-group row">
                                     <div class="col-md-10">
                                         <label for="horizontal-form-3">Description</label>
@@ -76,7 +90,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="form-group row">
                                     <div class="col-md-10">
                                         <label for="horizontal-form-3">Features</label>
@@ -87,21 +101,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="col-md-10">
-                                    <div class="form-group row">
-                                        <label for="horizontal-form-1">BHK</label>
 
-                                        <input type="text" formControlName="bhk" class="form-control"
-                                            placeholder="BHK" maxlength="25" autocomplete="off">
-
-                                    </div>
-                                </div>
-                            </div>
                         </div>
 
                         <div class="row mr-10">
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="form-group row">
                                     <div class="col-md-10">
                                         <label for="horizontal-form-3">Address</label>
@@ -117,7 +121,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="col-md-10">
                                     <div class="form-group row">
                                         <label for="horizontal-form-1">Address1</label>
@@ -128,7 +132,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+
+                        </div>
+                        <div class="row mr-10">
+                            <div class="col-md-6">
                                 <div class="col-md-10">
                                     <div class="form-group row">
                                         <label for="horizontal-form-1">LandMark</label>
@@ -144,9 +151,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row mr-10">
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="form-group row">
                                     <div class="col-md-10">
                                         <label for="horizontal-form-3">City</label>
@@ -162,7 +167,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                        </div>
+                        <div class="row mr-10">
+
+                            <div class="col-md-6">
                                 <div class="col-md-10">
                                     <div class="form-group row">
                                         <label for="horizontal-form-1">State</label>
@@ -178,7 +186,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="col-md-10">
                                     <div class="form-group row">
                                         <label for="horizontal-form-3">
@@ -196,7 +204,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>                        
+                        </div>
                         <div class="row mr-10" *ngIf="id > 0">
                             <div class="col-xl-4 col-lg-6 col-md-6 col-12"
                                 *ngFor="let item of projectImages; let i = index">
