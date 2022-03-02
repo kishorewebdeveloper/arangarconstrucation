@@ -3,9 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  apiBaseUrl: "https://localhost:5001",
+  // apiBaseUrl: "https://localhost:5001",
   // apiBaseUrl: "https://festevite.hextasoft.com",
-  // apiBaseUrl: "https://balanceapi.k3design.in",
+  apiBaseUrl: "https://api.sriarangarconstruction.com",
   signalREmailMessageHubUrl: "emailmessage-created",
   production: false,
   showEnvironment: true,

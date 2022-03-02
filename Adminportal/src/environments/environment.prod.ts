@@ -1,5 +1,5 @@
 export const environment = {
-    apiBaseUrl: "https://balanceapi.k3design.in",
+    apiBaseUrl: "https://api.sriarangarconstruction.com",
     signalREmailMessageHubUrl: 'emailmessage-created',
     production: true,
     showEnvironment: false,
