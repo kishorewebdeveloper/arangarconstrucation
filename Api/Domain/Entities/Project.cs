@@ -24,6 +24,11 @@ namespace Domain.Entities
         public string Features { get; set; }
         public string Lat { get; set; }
         public string Lng { get; set; }
+        public string Facing { get; set; }
+        public string Measurement { get; set; }
+        public string RoadWidth { get; set; }
+        public string Frentage { get; set; }
+        public string Length { get; set; }
         public ServiceType ServiceType { get; set; }
        
         public ICollection<ProjectImage> ProjectImages { get; set; }

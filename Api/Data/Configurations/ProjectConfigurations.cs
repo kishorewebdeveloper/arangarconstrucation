@@ -59,6 +59,21 @@ namespace Data.Configurations
             builder.Property(e => e.Lng)
                 .HasMaxLength(50);
 
+            builder.Property(e => e.Facing)
+                .HasMaxLength(50);
+            
+            builder.Property(e => e.Measurement)
+                .HasMaxLength(50);
+
+            builder.Property(e => e.RoadWidth)
+                .HasMaxLength(50);
+
+            builder.Property(e => e.Frentage)
+                .HasMaxLength(50);
+
+            builder.Property(e => e.Length)
+                .HasMaxLength(50);
+
             builder.Property(e => e.ServiceType)
                 .IsRequired();
 
