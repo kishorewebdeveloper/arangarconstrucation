@@ -120,6 +120,7 @@ export class NewprojectComponent implements OnInit {
             state: ["", [Validators.required]],
             pinCode: ["", [Validators.required]],
             bhk: [""],
+            facing:[""],
             landMark: ["", [Validators.required]],
             features: [""],
             serviceType: ["", [Validators.required]],
