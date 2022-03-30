@@ -45,7 +45,7 @@ namespace Api.Controllers
 
         [HttpGet]
         [Route(ApiRouteConstants.Project.GetProjectsWithImagesRoute)]
-        [Authorize]
+        [AllowAnonymous]
         public async Task<IEnumerable<ProjectsWithImagesViewModel>> GetProjectsWithImages(CancellationToken cancellationToken)
         {
             return await mediator.Send(new ProjectsWithImagesQuery(), cancellationToken);
