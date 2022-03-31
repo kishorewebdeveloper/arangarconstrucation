@@ -30,8 +30,10 @@ export class ProjectDetailComponent implements OnInit {
   }
 
   getServiceDetails() {
+    debugger;
     this.detailData = [];
     this.ourService.getServices(this.projectId).subscribe((data) => {
+      console.log(data);
       this.detailData = data.services;
       this.detailData = data.services.filter(
         (item) => item.projectId === this.projectId

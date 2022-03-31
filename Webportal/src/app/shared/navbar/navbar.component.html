@@ -8,48 +8,30 @@
     </div>
   </div>
 </div>
-<nav
-  id="navbar-main"
-  class="navbar navbar-main navbar-expand-lg"
-  style="
+<nav id="navbar-main" class="navbar navbar-main navbar-expand-lg" style="
     background-color: white;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  "
->
+  ">
   <div class="container-fluid">
     <div class="logo-div">
       <img src="./assets/img/brand/arangar-logo.svg" />
     </div>
 
-    <button
-      class="navbar-toggler"
-      type="button"
-      (click)="isCollapsed = !isCollapsed"
-      [attr.aria-expanded]="!isCollapsed"
-      aria-controls="navbar_global"
-    >
+    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
+      [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
       <span class="navbar-toggler-icon">
         <i class="fa fa-bars" style="color: #033e96"></i>
       </span>
     </button>
-    <div
-      class="navbar-collapse collapse"
-      id="navbar_global"
-      [ngbCollapse]="isCollapsed"
-    >
+    <div class="navbar-collapse collapse" id="navbar_global" [ngbCollapse]="isCollapsed">
       <div class="navbar-collapse-header">
         <div class="row">
           <div class="col-6 collapse-brand">
             <a [routerLink]="['/home']"> Arangar Construction </a>
           </div>
           <div class="col-6 collapse-close">
-            <button
-              type="button"
-              class="navbar-toggler"
-              (click)="isCollapsed = !isCollapsed"
-              [attr.aria-expanded]="!isCollapsed"
-              aria-controls="navbar_global"
-            >
+            <button type="button" class="navbar-toggler" (click)="isCollapsed = !isCollapsed"
+              [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
               <span></span>
               <span></span>
             </button>
@@ -64,35 +46,24 @@
           <a [routerLink]="['/about']" class="dropdown-item">About Us</a>
         </li>
         <li class="nav-item dropdown">
-          <a [routerLink]="['/services', 'flats']" class="dropdown-item">
-            Flats</a
-          >
+          <a [routerLink]="['/services', 1]" class="dropdown-item">
+            Flats</a>
         </li>
         <li class="nav-item dropdown">
-          <a
-            [routerLink]="['/services', 'cmda-approved-plots']"
-            class="dropdown-item"
-            >Plots</a
-          >
+          <a [routerLink]="['/services', 2]" class="dropdown-item">Plots</a>
         </li>
 
         <li class="nav-item dropdown">
-          <a
-            [routerLink]="['/services', 'luxury-villas']"
-            class="dropdown-item"
-          >
-            Villas</a
-          >
+          <a [routerLink]="['/services',2]" class="dropdown-item">
+            Villas</a>
         </li>
         <li class="nav-item dropdown">
-          <a [routerLink]="['/joinventures']" class="dropdown-item">
-            Join Ventures</a
-          >
+          <a [routerLink]="['/services',3]" class="dropdown-item">
+            Join Ventures</a>
         </li>
         <li class="nav-item dropdown">
-          <a [routerLink]="['/services', 'Construction']" class="dropdown-item">
-            Constructions</a
-          >
+          <a [routerLink]="['/services', 4]" class="dropdown-item">
+            Constructions</a>
         </li>
 
         <!-- <li class="nav-item dropdown">

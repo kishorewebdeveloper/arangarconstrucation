@@ -12,7 +12,7 @@ export class ServicesComponent implements OnInit {
   collapseId: any;
   focus: any;
   focus1: any;
-  serviceType: string;
+  serviceType: number=0;
   pageTitle: string;
   projectData = [];
   routeParams: any;
@@ -23,7 +23,7 @@ export class ServicesComponent implements OnInit {
     private router: Router
   ) {
     this.routeParams = route.snapshot.params;
-    this.serviceType = this.routeParams.serviceType;
+    this.serviceType = Number(this.routeParams.serviceType);
     console.log("The service type of this route is: ", this.serviceType);
   }
 
@@ -38,27 +38,28 @@ export class ServicesComponent implements OnInit {
   getServiceDetails() {
     this.projectData = [];
     this.ourService.getServices(this.serviceType).subscribe((data) => {
-      this.projectData = data.services;
-      this.projectData = data.services.filter(
-        (item) => item.serviceType === this.serviceType
+      debugger;
+      this.projectData = data;
+      this.projectData = data.filter(
+        (item) => item.serviceType === Number(this.serviceType)
       );
     });
     this.setTitle();
   }
   setTitle() {
-    if (this.serviceType === "cmda-approved-plots") {
+    if (this.serviceType === 1) {
       this.pageTitle = "CMDA Approved Flats";
     }
-    if (this.serviceType === "flats") {
+    if (this.serviceType === 2) {
       this.pageTitle = "Ready to Occupy Flats";
     }
-    if (this.serviceType === "luxury-villas") {
+    if (this.serviceType === 3) {
       this.pageTitle = "Luxury Villas";
     }
-    if (this.serviceType === "JoinVenture") {
+    if (this.serviceType === 4) {
       this.pageTitle = "Join Ventures";
     }
-    if (this.serviceType === "Construction") {
+    if (this.serviceType === 5) {
       this.pageTitle = "Construction";
     }
   }
